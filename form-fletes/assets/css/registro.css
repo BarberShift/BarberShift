@@ -1,0 +1,127 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+body{
+  background-color: #222;
+}
+hr{
+  height: 40px;
+  background-color: #252525;
+  border: none;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #222;
+  padding: 5px 10%;
+}
+
+.top-registro{
+  display: block;
+  text-align: center;
+  height: 600px;
+  background-image:linear-gradient(
+  rgba(0,0,0,0.9), rgba(0,0,0,0.5), rgba(0,0,0,0.9)),url(/form-fletes/assets/img/1unete.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+.txt1-top-registro{
+  font-weight: 700;
+  padding-top: 270px;
+  display: block;
+  font-size: 2rem; 
+  color: #fff; 
+}
+.txt2-top-registro{
+  font-weight: 400;
+  padding-top: 20px;
+  display: block;
+  font-size: 1.3rem; 
+  color: #fff; 
+}
+
+.section1{
+    position: relative;
+    margin: 0 auto;
+    width: 70vw;
+}
+.txt-section1{
+  color: #fff;
+  padding: 40px;
+  text-align: start;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+}
+
+.section2{
+  padding-top: 30px;
+  position: relative;
+  margin: 0 auto;
+  width: 30vw;
+}
+.txt1-section2{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+.txt2-section2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+
+}
+
+@media screen and (min-width: 0) and (max-width: 768px)  {
+  .top-registro{
+  height: 300px ;
+  } 
+  .txt1-top-registro{
+    padding-top: 55px;
+    font-weight: 1000;
+  }
+  .registro-header__logo {
+    width: 5.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .registro-header__title {
+    margin-bottom: 2rem;
+  }
+  .section1{
+    position: relative;
+    margin: 0 auto;
+    width: 100vw;
+  }
+
+  .txt-section1{
+    display: flex;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    padding: 20px;
+    text-align: start;
+    letter-spacing: 2px;
+    font-size: 1rem;
+  }
+  .section1{
+    position: relative;
+    margin: 0 auto;
+    width: 70vw;
+  }
+  .section2{
+    padding-top: 30px;
+    position: relative;
+    margin: 0 auto;
+    width: 70vw;
+  }
+}
+
