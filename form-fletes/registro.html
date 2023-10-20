@@ -40,141 +40,163 @@
     </header>
     <main>
       <section class="top-registro">
-        <span class="txt1-top-registro"> SUMATE A LA TECNOLOGIA BARBER SHIFT </span>
-        <span class="txt2-top-registro">Hace crecer tu negocio y mantene el orden!</span>
-      </section>
-      <hr>
-      <section class="section1">
-        <p class="txt-section1"> La gestion de negocios ha experimentado una transformacion notable, con solo un clic pueden acceder a tu perfil de Barbero. A su vez puedes estructurar tu agenda segun tus preferencias y definir con flexibilidad tus horarios de trabajo, brindandote una mayor libertad y control sobre tu emprendimiento. Esta flexibilidad puede aumentar tu eficiencia, productividad y clientela, asi como mejorar tu equilibrio entre trabajo y vida personal.</p>
-        <img src="/form-fletes/assets/img/barber.onlinejpg.jpg" class="img-section1">
-      </section>
-      <hr>
-    <section class="section2">
-      <h2 class="txt1-section2">Sumate al equipo!</h2>
-      <h3 class="txt2-section2">Completa el formulario y en la brevedad soporte se pondra en contacto con tigo. </h3>
-      <div class="card">
-        <h2 class="card__title">Completa tu registro</h2>
-        <form
-          action="/form-fletes/registro_concluido.html"
-          class="formulario flex flex--column"
+        <span class="txt1-top-registro">
+          SUMATE A LA TECNOLOGIA BARBER SHIFT
+        </span>
+        <span class="txt2-top-registro"
+          >Hace crecer tu negocio y mantene el orden!</span
         >
-          <fieldset>
-            <div class="input-container">
-              <input
-                name="name"
-                id="name"
-                class="input"
-                type="text"
-                placeholder="Nombre"
-                required
-                data-tipo="nombre"
-              />
-              <label class="input-label" for="name">Nombre completo</label>
-              <span class="input-message-error">Este campo no es valido</span>
-            </div>
-            <div class="input-container">
-              <input
-                name="email"
-                id="email"
-                class="input"
-                type="email"
-                placeholder="Email"
-                required
-                data-tipo="email"
-              />
-              <label class="input-label" for="email">Email</label>
-              <span class="input-message-error">Este campo no es valido</span>
-            </div>
-          </fieldset>
-          <fieldset>
-            <div class="input-container">
-              <input
-                name="birth"
-                id="birth"
-                class="input"
-                type="date"
-                placeholder="Fecha de nacimento"
-                required
-                data-tipo="nacimiento"
-              />
-              <label class="input-label" for="birth">Fecha de nacimiento</label>
-              <span class="input-message-error">Este campo no es valido</span>
-            </div>
-            <div class="input-container">
-              <input
-                name="phoneNumber"
-                id="phoneNumber"
-                class="input"
-                type="text"
-                placeholder="Número telefónico"
-                pattern="\d{10}"
-                required
-                maxlength="10"
-                data-tipo="numero"
-              />
-              <label class="input-label" for="phoneNumber"
-                >Número telefónico</label
-              >
-              <span class="input-message-error">Este campo no es valido</span>
-            </div>
-          </fieldset>
-          <fieldset>
-            <div class="input-container">
-              <input
-                name="cep"
-                id="cep"
-                class="input"
-                type="text"
-                placeholder="CEP"
-                required
-                pattern="[\s\S]{10,40}"
-                data-tipo="direccion"
-              />
-              <label class="input-label" for="cep">Dirección completa</label>
-              <span class="input-message-error">Este campo no es valido</span>
-            </div>
-            <div class="input-container">
-              <input
-                name="city"
-                id="city"
-                class="input"
-                type="text"
-                placeholder="Ciudad"
-                pattern="[\s\S]{3,40}"
-                data-tipo="ciudad"
-              />
-              <label class="input-label" for="city">Ciudad</label>
-              <span class="input-message-error">Este campo no es valido</span>
-            </div>
-            <div class="input-container">
-              <input
-                name="state"
-                id="state"
-                class="input"
-                type="text"
-                placeholder="Estado"
-                pattern="[\s\S]{3,40}"
-                data-tipo="localidad"
-              />
-              <label class="input-label" for="state">Localidad</label>
-              <span class="input-message-error">Este campo no es valido</span>
-            </div>
-            <div class="input-container">
-              <input
-                name="number"
-                id="number"
-                class="input"
-                type="text"
-                placeholder="Con cuantas personas suele o podria trabajar"
-              />
-              <label class="input-label" for="number">Equipo de personas</label>
-              <span class="input-message-error">Este campo no es valido</span>
-            </div>
-          </fieldset>
-          <button class="button">Registrar</button>
-        </form>
-      </div>
-    </section>
+      </section>
+      <hr />
+      <section class="section1">
+        <p class="txt-section1">
+          La gestion de negocios ha experimentado una transformacion notable,
+          con solo un clic pueden acceder a tu perfil de Barbero. A su vez
+          puedes estructurar tu agenda segun tus preferencias y definir con
+          flexibilidad tus horarios de trabajo, brindandote una mayor libertad y
+          control sobre tu emprendimiento. Esta flexibilidad puede aumentar tu
+          eficiencia, productividad y clientela, asi como mejorar tu equilibrio
+          entre trabajo y vida personal.
+        </p>
+        <img
+          src="/form-fletes/assets/img/barber.onlinejpg.jpg"
+          class="img-section1"
+        />
+      </section>
+      <hr />
+      <section class="section2">
+        <h2 class="txt1-section2">Sumate al equipo!</h2>
+        <h3 class="txt2-section2">
+          Completa el formulario y en la brevedad soporte se pondra en contacto
+          con tigo.
+        </h3>
+        <div class="card">
+          <h2 class="card__title">Completa tu registro</h2>
+          <form
+            action="/form-fletes/registro_concluido.html"
+            class="formulario flex flex--column"
+          >
+            <fieldset>
+              <div class="input-container">
+                <input
+                  name="name"
+                  id="name"
+                  class="input"
+                  type="text"
+                  placeholder="Nombre"
+                  required
+                  data-tipo="nombre"
+                />
+                <label class="input-label" for="name">Nombre completo</label>
+                <span class="input-message-error"></span>
+              </div>
+              <div class="input-container">
+                <input
+                  name="email"
+                  id="email"
+                  class="input"
+                  type="email"
+                  placeholder="Email"
+                  required
+                  data-tipo="email"
+                />
+                <label class="input-label" for="email">Email</label>
+                <span class="input-message-error"></span>
+              </div>
+            </fieldset>
+            <fieldset>
+              <div class="input-container">
+                <input
+                  name="birth"
+                  id="birth"
+                  class="input"
+                  type="date"
+                  placeholder="Fecha de nacimento"
+                  required
+                  data-tipo="nacimiento"
+                />
+                <label class="input-label" for="birth"
+                  >Fecha de nacimiento</label
+                >
+                <span class="input-message-error"></span>
+              </div>
+              <div class="input-container">
+                <input
+                  name="phoneNumber"
+                  id="phoneNumber"
+                  class="input"
+                  type="text"
+                  placeholder="Número telefónico"
+                  pattern="\d{10}"
+                  required
+                  maxlength="10"
+                  data-tipo="numero"
+                />
+                <label class="input-label" for="phoneNumber"
+                  >Número telefónico</label
+                >
+                <span class="input-message-error"></span>
+              </div>
+            </fieldset>
+            <fieldset>
+              <div class="input-container">
+                <input
+                  name="cep"
+                  id="cep"
+                  class="input"
+                  type="text"
+                  placeholder="CEP"
+                  required
+                  pattern="[\s\S]{10,40}"
+                  data-tipo="direccion"
+                />
+                <label class="input-label" for="cep">Dirección completa</label>
+                <span class="input-message-error"></span>
+              </div>
+              <div class="input-container">
+                <input
+                  name="city"
+                  id="city"
+                  class="input"
+                  type="text"
+                  placeholder="Ciudad"
+                  pattern="[\s\S]{3,40}"
+                  data-tipo="ciudad"
+                />
+                <label class="input-label" for="city">Ciudad</label>
+                <span class="input-message-error"></span>
+              </div>
+              <div class="input-container">
+                <input
+                  name="state"
+                  id="state"
+                  class="input"
+                  type="text"
+                  placeholder="Estado"
+                  pattern="[\s\S]{3,40}"
+                  data-tipo="localidad"
+                />
+                <label class="input-label" for="state">Localidad</label>
+                <span class="input-message-error"></span>
+              </div>
+              <div class="input-container">
+                <input
+                  name="number"
+                  id="number"
+                  class="input"
+                  type="text"
+                  placeholder="Con cuantas personas suele o podria trabajar"
+                />
+                <label class="input-label" for="number"
+                  >Equipo de personas</label
+                >
+                <span class="input-message-error"></span>
+              </div>
+            </fieldset>
+            <button class="button">Registrar</button>
+          </form>
+        </div>
+      </section>
     </main>
     <script type="module" src="/form-fletes/assets/js/app.js"></script>
   </body>
